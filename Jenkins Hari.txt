@@ -1,0 +1,49 @@
+----------> jenkins is an execution tool 
+jenkins we are using only execution purpose
+jenkins we use for scheduling purpose 
+
+in the jenkins Dashboard
+==>Configuration
+==> build Triggers 
+===> build periodically you have to check and select ===> have to pass time and date
+
+H**** every hour
+H/20**** every 20 min
+
+in the 
+Post-build Actions 
+===> you have to select Email notification 
+===> have to configure email address 
+save and apply
+
+while running jenkins also we will give pom.xml
+so you have to create one text.xml file 
+and create testng and runner file link created
+but pom.xml and testng.xml there is no link 
+for that purpose only we will use maven surefile plugin  in the pom.xml file
+
+so indirectly runner file and pom.xml file linked with testng.xml file 
+
+the main purpose of maven sure file plugin 
+if you want to call testng.xml file to  integrate with pom.xml 
+inside the testng xml file i am calling runner file
+now if i execute in the same cmd prmt 
+it will open the browser and do all the works 
+
+we are following the BDD framework model 
+inside the pom.xml file we are using maven sure file plugin
+we are calling the test runner file 
+we are using jenkins for our regression automation testing 
+what ever the tags we are calling in side the test runner file 
+that will be executed
+the same thing we are executing with jenkins 
+it will take code from our master branch
+we can schedule without human interation
+we can send all reports to emails
+from git only it will take code bcz in the team everyone will push the code 
+
+
+
+
+
+
